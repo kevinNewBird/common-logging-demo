@@ -28,6 +28,7 @@ public class Log4j2Log {
      * @param args
      */
     public static void main(String[] args) {
+        int i = 1 / 0;
         logger.info("This is info Message!!!");
         logger.debug("This is debug Message!!!");
         logger.warn("This is warn Message!!!");
